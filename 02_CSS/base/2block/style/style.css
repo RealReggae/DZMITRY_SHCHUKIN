@@ -1,0 +1,33 @@
+.array
+{
+	height: 300px;
+	width: 400px;
+	border: 4px outset; silver;
+	
+}
+ol
+{
+	list-style-type: lower-roman;
+	display: inline-block;
+	margin-top: 0px;
+	
+	
+}
+.upper
+{
+	list-style-type: upper-roman;
+}
+.code
+{
+	max-height: 80px;
+	width: 350px;
+	color: green;
+	background-color: black;
+	overflow: auto;
+}
+
+h3 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

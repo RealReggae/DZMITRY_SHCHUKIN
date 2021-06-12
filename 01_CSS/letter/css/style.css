@@ -1,0 +1,37 @@
+h3 {
+	text-align: right;
+}
+span {
+    font-style: italic;
+}
+.info
+{
+	text-align: right;
+}
+h2
+{
+	font-family: "new font", cursive;
+	text-decoration: underline;
+	
+}
+.main {
+	font-family: "new font", cursive;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 22px;
+	text-indent: 5mm;
+
+}
+@font-face {
+  font-family: 'new font';
+  src: local('new font'),
+	   url('..//fonts/13578.woff2') format('woff2'), 
+	   url('..//fonts/13578.woff') format('woff'),
+	   url('..//fonts/13578.ttf') format('ttf'),
+	   url('..//fonts/13578.otf') format('otf');
+}
+.margin
+{
+	margin-left: 20px;
+}
+

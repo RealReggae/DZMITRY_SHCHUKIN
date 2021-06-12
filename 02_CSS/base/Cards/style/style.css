@@ -1,0 +1,34 @@
+.club
+{	height: 200px;
+	width: 143px;
+	background-image: url(../images/cards.png);
+	background-repeat: no-repeat;
+	background-position: -142px -195px;
+	display: inline-block;
+
+
+}
+
+.heart
+{	height: 200px;
+	width: 143px;
+	background-image: url(../images/cards.png);
+	background-repeat: no-repeat;
+	background-position: -434px -593px;
+	display: inline-block;
+	position: relative;
+	right: 110px;
+	margin: 0px;
+	
+}
+
+.spade
+{	height: 200px;
+	width: 143px;
+	background-image: url(../images/cards.png);
+	background-repeat: no-repeat;
+	background-position: -290px -1388px;
+	display: inline-block;
+	position: relative;
+	right: 220px;
+}
