@@ -1,0 +1,13 @@
+div
+{
+	padding: 2.5em;
+	background: 
+	url(../image/r-t.png) no-repeat top right,
+	url(../image/r-b.png) no-repeat bottom right,
+	url(../image/l-t.png) no-repeat top left,
+	url(../image/l-b.png) no-repeat bottom left,
+	url(../image/t.png) repeat-x top,
+	url(../image/b.png) repeat-x bottom,
+	url(../image/r.png) repeat-y right,
+	url(../image/l.png) repeat-y left;
+}

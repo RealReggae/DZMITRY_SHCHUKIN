@@ -1,0 +1,33 @@
+.mainblok
+{
+	display: flex;
+}
+.blok1
+{
+	max-width: 15em;
+	background-color: lightskyblue;
+	margin-bottom: 2px;
+}
+.blok2
+{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	
+}
+.art1
+{
+	background-color: lightcoral;
+	margin-bottom: 2px;
+
+}
+.art2
+{
+	background-color: lightseagreen;
+	margin-bottom: 2px;
+	
+}
+footer
+{
+	background-color: lightgoldenrodyellow;
+}

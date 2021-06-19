@@ -1,0 +1,77 @@
+.main
+{
+	display: flex;
+	flex-direction: column;
+}
+.firstmenu
+{
+	width: 100px;
+	border: solid black 2px;
+	background-color: lightgrey;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+.firstmenu:hover
+{
+	background-color: lightslategrey;
+}
+.secondmenu
+{
+	width: 300px;
+	background-color: lightgrey;
+	display: none;
+	transition: display 1s;
+
+}
+div > div > div > div
+{
+	width: 100px;
+	border: solid black 2px;
+	border-radius: 5px;
+}
+.firstmenu:hover .secondmenu
+{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: -10%;
+	left: 100%;
+	z-index: 1;
+
+}
+
+@media all and (min-width: 750px)
+{
+	.main
+{
+	display: flex;
+	flex-direction: row;
+}
+.secondmenu
+{
+	width: 100px;
+}
+.firstmenu:hover .secondmenu
+{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 100%;
+	left: -2%;
+	z-index: 1;
+
+	
+
+}
+.firstmenu:hover
+{
+	background-color: lightslategrey;
+	
+}
+}
+
+
+
+
