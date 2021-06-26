@@ -12,6 +12,7 @@
 	text-align: center;
 	cursor: pointer;
 	position: relative;
+	height: 20px;
 }
 .firstmenu:hover
 {
@@ -21,16 +22,19 @@
 {
 	width: 300px;
 	background-color: lightgrey;
-	display: none;
-	transition: display 1s;
-
+	transform: scale(0, 0);
+	
+	
+	
 }
+
 div > div > div > div
 {
 	width: 100px;
 	border: solid black 2px;
 	border-radius: 5px;
 }
+
 .firstmenu:hover .secondmenu
 {
 	display: flex;
@@ -39,8 +43,13 @@ div > div > div > div
 	top: -10%;
 	left: 100%;
 	z-index: 1;
-
+	transform: scale(1, 1);
+	transition: 1000ms;
 }
+
+
+
+
 
 @media all and (min-width: 750px)
 {
@@ -52,6 +61,8 @@ div > div > div > div
 .secondmenu
 {
 	width: 100px;
+	opacity: 0;
+	transform: none;
 }
 .firstmenu:hover .secondmenu
 {
@@ -61,6 +72,9 @@ div > div > div > div
 	top: 100%;
 	left: -2%;
 	z-index: 1;
+	transform: none;
+	opacity: 1;
+	transition: 1000ms;
 
 	
 

@@ -1,0 +1,42 @@
+caption
+{
+	caption-side: bottom;
+}
+table > caption
+{
+	text-transform: uppercase;
+	background-color: lightslategrey;
+}
+tr:nth-child(1)
+{
+	background-color: grey;
+	text-align: center;
+	color: white;
+}
+tr:nth-child(even)
+{
+	background-color: lightgrey;
+}
+
+th 
+{
+	border: dotted 1px;
+	margin: 0px;
+	padding: 0px;
+}
+td 
+{
+	border: dotted 1px;
+	margin: 0px;
+	padding: 0px;
+}
+tr 
+{
+	padding: 0px;
+	margin: 0px;
+}
+tr:hover
+{
+	font-style: italic;
+	cursor: pointer;
+}

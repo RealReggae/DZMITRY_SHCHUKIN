@@ -1,0 +1,28 @@
+ul
+{
+	list-style-image: url(../image/logo-list.jpg);
+}
+a[href^="http"]::before
+{
+	content: url(../image/extref.png);
+}
+p > a[href$="doc"]::after
+{
+	content: url(../image/logo-doc.jpg);
+}
+a[href$="document.pdf"]::after
+{
+	content: url(../image/logo-pdf.png);
+}
+p > a[href$="document.zip"]::after
+{
+	content: url(../image/logo-zip.gif);
+}
+ul > li > a[href$="zip"]:hover:after
+{
+	content: url(../image/logo-zip.gif);
+}
+ul > li > a[href$="doc"]:hover:after
+{
+	content: url(../image/logo-doc.jpg);
+}

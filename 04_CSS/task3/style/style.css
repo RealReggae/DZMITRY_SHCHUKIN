@@ -1,0 +1,44 @@
+table
+{
+	border: outset 2px;
+	padding: 10px;
+
+}
+td
+{
+	width: 100px;
+	height: 100px;
+	border: solid 1px;
+}
+.row1 > td:nth-child(odd), .row3 > td:nth-child(odd), .row5 > td:nth-child(odd), .row7 > td:nth-child(odd)
+{
+	background-color: black;
+	color: white;
+}
+.row2 > td:nth-child(even), .row4 > td:nth-child(even), .row6 > td:nth-child(even), .row8 > td:nth-child(even)
+{
+	background-color: black;
+	color: white;
+}
+
+<--.row8 > td:last-child:before
+{
+	counter-reset: counternew 65;
+	counter-increment: counternew -1;
+	content: counter(counternew);
+	color: white;
+}-->
+
+table 
+{
+	counter-reset: count 65;
+}
+td:before 
+{
+	counter-increment: count -1;
+	content: counter(count);
+	font-size: 65px;
+	position: relative;
+	left: 20px;
+	align-items: center;
+}	
